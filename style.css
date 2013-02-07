@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* RESET CSS - Eric Meyer */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*********/
+
+
+/*#contenu
+{
+	margin:0 auto;
+	text-align:center;
+}
+*/
+header
+{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	box-shadow: 8px 8px 8px #CCC;
+	padding-bottom:10px;
+}
+
+header img
+{
+	width:13%;
+	margin: 60px 0px 25px 0px;
+}
+
+nav ul li
+{
+	display:inline;
+	margin:0px 10px 0px 10px;
+	font-size:24px;
+	font-family: "Chapparal";
+	font-style:italic;
+	
+}
+
+nav ul li a
+{
+	color:#CCC;
+	text-decoration:none;
+}
+
+nav ul li a.selected 
+{
+	color:#000;	
+}
+
+article
+{
+	padding-top:100px;
+	width:30%;
+	margin:0 auto;
+	text-align:center;
+	
+}
+
+article ul
+{
+	list-style:none;
+	margin-bottom:100px;
+}
+article ul li ul 
+{
+	display:none;
+	list-style:none;
+}
+
+article li:hover ul  
+{
+	display:inline;
+	text-decoration:none;
+	border:solid 1px;
+	border-radius: 3px;
+}
+
+article ul li ul li
+{
+	display:inline;
+	
+}
+article h1
+{
+	font-family: "Chapparal";
+	margin-top:20px;
+	font-size:25px;
+}
+article p
+{
+	margin-top:20px;
+	font-size:22px;
+	text-align:justify;
+	font-family:'Lato';
+}
+
+
+footer
+{
+	text-align:center;
+	margin:80px 0px 10px 0px;
+	font-family:'Lato';
+}
+
+footer h1
+{
+	font-size:22px;
+	color:#666;
+}
+
+footer a
+{
+	color:#FF4F4F;
+	text-decoration:none;
+	
+}
+
+footer p
+{
+	color:#666;
+	font-size:16px;
+	
+}
+/* Mon code ajouté */
+.newsletter {
+	border:2px solid #CCC;
+	color:rgb(102,102,102);
+	font-family:"Chaparral Pro";
+	width:180px;
+	height:22px;
+	font-size:13px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:32px;
+}
+
+.newsletter a{
+	color:rgb(102,102,102);
+	text-decoration:none;
+	margin-top:20px;
+}
+
+.newsletter img{
+	width:15px;
+	height:10px;
+	margin-top:4px;
+}
+
+div form p {
+	width:300px;
+	height:200px;
+	margin:0 auto;
+	color:rgb(102,102,102);
+}
+
+div form p input {
+	width: 150px;
+	position: absolute;
+	left: 600px;
+	margin-bottom: 10px;
+}
+
+.bouton {
+	margin-top: 40px;
+	left: 550px;
+}
+/* --------------- */
+
+@font-face {
+    font-family: "Chapparal";
+    src: url('ChaparralPro-Regular.otf');
+}
+@font-face {
+    font-family: "Chapparal";
+    font-style: italic;
+    src: url('ChaparralPro-Italic.otf');
+}
+@font-face {
+    font-family: "Chapparal";
+    font-weight: bold;
+    src: url('ChaparralPro-Bold.otf');
+}

@@ -1,0 +1,155 @@
+header{
+	width:70%;
+	background-color:#6666C;
+	box-shadow:7px 7px 9px #CCC;
+	margin:0 auto;
+	margin-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
+.index {
+	color:black;
+}
+
+.logo{
+    background-image:url(img/logo.png);
+	background-repeat:no-repeat;
+	background-size:12.5%;
+	background-position:center;
+	height:120px;
+	display:block;
+}
+
+.coeur{
+	background-image:url(img/coeur.png);
+	background-size:80%;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	margin-top:70px;
+	height:13px;
+	width:20px;
+	display:block;
+}
+
+.racine:hover .images{
+	width:43px;
+	height:16px;
+	box-shadow:7px 7px 9px #CCC;
+	margin:0 auto;
+	display:block;
+}
+/*----Dimension des images-----*/
+img{
+	height:12px;
+	width:11px;
+}
+
+.racine{
+	width:40px;
+	height:0.5px;
+	display:block;
+	margin:0 auto;
+}
+
+.images{
+	display:none;
+}
+
+
+ul li{
+	display:inline;
+	margin:0px 10px;
+}
+
+.menu a{
+	font-family:"Chaparral Pro";
+	color:rgb(153,153,153);
+	text-decoration:none;
+	font-style:italic;
+	font-size:20px;
+	border:none;
+	margin-bottom:30px;
+}
+
+.menu {
+	margin-right:21px;
+}
+
+article{
+	margin: 0 auto;
+	width: 250px;
+	display: block;
+}
+
+article p {
+	color:rgb(102,102,102);
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Lato';
+}
+
+footer {
+	text-align:center;
+	margin-top:40px;
+	
+}
+footer h1 {
+    font-size: 20px;
+	font-family:'Chaparral Pro Light'; 
+    color: rgb(102, 102, 102);
+	
+}
+
+footer h1 a {
+	text-decoration:none;
+	color:rgb(255,79,79);
+}
+
+footer p {
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+	margin:4px;
+}
+
+
+.newsletter {
+	border:2px solid #CCC;
+	color:rgb(102,102,102);
+	font-family:"Chaparral Pro";
+	width:180px;
+	height:22px;
+	font-size:13px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:32px;
+}
+
+.newsletter a{
+	color:rgb(102,102,102);
+	text-decoration:none;
+	margin-top:20px;
+}
+
+.newsletter img{
+	width:15px;
+	height:10px;
+	margin-top:4px;
+}
+
+section{
+	width:250px;
+	height:500px;
+	margin-top:100px;
+	margin: 0 auto;
+}
+
+section article{
+	margin:0 auto;
+	
+}
+section article img {
+	width:120px;
+	height:120px;
+	margin: 0 auto;
+}
